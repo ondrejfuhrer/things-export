@@ -1,11 +1,12 @@
 # Things Toodledo Export
-Applescript for exporting items from Things app
-Convert Things (from Cultured Code) database to Toodledo XML
+Exports Things (from Cultured Code) database to Toodledo XML format.
+
 https://culturedcode.com/things/
+
+https://www.toodledo.com/
 
 This script produces several XML to the user's desktop. Each file has up to 500 items so we are sure that we don't hit the upload limit of Toodledo.
 It requires that Things.app is installed.
-
 
 ## Known Issues:
 This script is really slow. Seems to cause Things to hit 100% CPU usage on a single core.
