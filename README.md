@@ -5,7 +5,7 @@ https://culturedcode.com/things/
 
 https://www.toodledo.com/
 
-This script produces several XML to the user's desktop. Each file has up to 500 items so we are sure that we don't hit the upload limit of Toodledo.
+This script produces several XML to the user's desktop. Each file has up to 3000 items so we are sure that we don't hit the upload limit of Toodledo.
 It requires that Things.app is installed.
 
 ## Known Issues:
