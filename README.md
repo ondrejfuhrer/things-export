@@ -1,4 +1,4 @@
-# Things Export
+# Things Toodledo Export
 Applescript for exporting items from Things app
 Convert Things (from Cultured Code) database to Toodledo XML
 https://culturedcode.com/things/
