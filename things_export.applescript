@@ -49,11 +49,12 @@ tell application "Things"
 		
 		get properties of toDo
 		set counter to 1 + (counter)
-		if (counter) is 500 then
+		if (counter) is 3000 then
 			set fileCounter to 1 + (fileCounter)
-			if (fileCounter) is 1 then
-				exit repeat
-			end if
+			-- debug: uncomment if you want only one file generated - 3000 items. If want less, just update the value above
+			#if (fileCounter) is 1 then
+			#	exit repeat
+			#end if
 			write "</xml>" & linefeed to todoFile
 			close access todoFile
 			set todoFilePath to todoFilePattern & " " & fileCounter & ".xml"
